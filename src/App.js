@@ -5,6 +5,8 @@ import ClassHello from "./components/ClassHello";
 import JsxHello from "./components/HelloJsx";
 import PropsHello from "./components/PropsHello";
 import ClassProps from "./components/ClassProps";
+import StateObj from "./components/StateObj";
+import Counter from "./components/Counter"
 class App extends Component{
   render() {
     return(
@@ -17,6 +19,8 @@ class App extends Component{
         <p>Im a child of ^</p>
       </PropsHello>
       <ClassProps name="HEY!" />
+      <StateObj />
+      <Counter />
     </div>
     );
   }
